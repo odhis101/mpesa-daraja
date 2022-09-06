@@ -85,5 +85,6 @@ if(isset($_POST['submit'])){
   $curl_response = curl_exec($curl);
   //print results
   echo $curl_response;
+
 };
 ?>
