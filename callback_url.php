@@ -10,7 +10,7 @@
      // DATA
   
      echo $mpesaResponse = file_get_contents('php://input'); 
-     echo $mpesaResponse , 'lolo' ;
+     echo $mpesaResponse , 'joshua was here ' ;
  
      // log the response
      $logFile = "M_PESAConfirmationResponse.json";
